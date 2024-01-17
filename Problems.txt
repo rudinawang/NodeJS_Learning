@@ -1,0 +1,12 @@
+Problem1: 
+          html elements haru res.send ma halda ramaro vayena
+
+Problem2: 
+          everytime kehi changes huda, pheri restart garnu parxa manually(v18.10->node --watch app.js)
+
+          Solution-> 
+                     1.nodemon install garnay,
+                     2."nodemon app.js" garay poni vayo, wa 
+                     3."npm start" -> "nodemon app.js", garay poni vayo,
+                    4. But yadi moilay "start" ko thauma kunai word    rakhe vanay ex: "rudra", then do
+                    "npm run rudra"---- Script vitra "dev" key ma "rudra" hunu paryoo ni feri.
