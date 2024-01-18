@@ -5,7 +5,9 @@ app.set("view engine", "ejs"); // moilay ejs use garna lagayko xu HTML content d
 
 app.get("/", (req, res) => {
   // views vitra ko file render garyo hai
-  res.render("home");
+
+  const name = "Rudra Nahawang Pandey";
+  res.render("home", { name: name });
 });
 
 app.get("/about", (req, res) => {
