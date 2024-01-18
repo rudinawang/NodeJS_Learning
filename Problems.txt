@@ -1,6 +1,8 @@
 Problem1: 
           html elements haru res.send ma halda ramaro vayena
 
+          {Ejs halayrw fix hanim hai}
+
 Problem2: 
           everytime kehi changes huda, pheri restart garnu parxa manually(v18.10->node --watch app.js)
 
@@ -10,3 +12,15 @@ Problem2:
                      3."npm start" -> "nodemon app.js", garay poni vayo,
                     4. But yadi moilay "start" ko thauma kunai word    rakhe vanay ex: "rudra", then do
                     "npm run rudra"---- Script vitra "dev" key ma "rudra" hunu paryoo ni feri.
+
+           start xa vanay-> npm start
+           start vanda bahek aaru word xa vanay-> npm run dev
+
+           {Nodemon hanarw fix hanim Problem1 lai}
+
+Probleme3:
+           template / view engine- laravel(blade), nodeJs(ejs,handlebar, pug,NEXTJS,NUXT,NEST)
+
+           SERVER SIDE RENDERING ->(ejs,handlebars,blade,pug)--- NodeJs/Server/backend ma run hunxa UI/html file haru
+
+           CLIENT SIDE RENDERING ->(react,vue,html)--- Browser ma run hunxa html file haru means user ko Browser lay html file lai parse garay rw Inject garxa oni html file lai UI ma dekhauxa. 

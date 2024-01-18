@@ -1,14 +1,15 @@
 const express = require("express"); // requiring express package
 const app = express(); // storing it in app, app vannay variable throughout use garxum
 
+app.set("view engine", "ejs"); // moilay ejs use garna lagayko xu HTML content dekhauna lai , k k chahinay ho env behind the scene set garday hai vanayrw nodejs lai inform garay,
+
 app.get("/", (req, res) => {
-  res.send(
-    "<h1>Hello world from Nepal </h1><p>This is Paragraph.</p><h2>I'm a Software Engineer.</h2><p>Good Night</p><h1>Rudra Nahawang Pandey</h1><p>Hello Developers</p>"
-  );
+  // views vitra ko file render garyo hai
+  res.render("home");
 });
 
 app.get("/about", (req, res) => {
-  res.send("This is about page");
+  res.render("about");
 });
 
 app.get("/contact", (req, res) => {
